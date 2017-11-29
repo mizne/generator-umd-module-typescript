@@ -93,6 +93,11 @@ module.exports = class extends Generator {
     )
 
     this.fs.copyTpl(
+      this.templatePath('tslint.json'),
+      this.destinationPath('tslint.json')
+    )
+
+    this.fs.copyTpl(
       this.templatePath('README.MD'),
       this.destinationPath('README.MD'),
       {
