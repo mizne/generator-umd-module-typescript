@@ -29,6 +29,9 @@
     "chalk": "^2.3.0",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^2.0.1",
-    "yosay": "^2.0.1"
+    "yosay": "^2.0.1",
+    "@types/jest": "^21.1.8",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.3"
   }
 }

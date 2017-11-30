@@ -115,6 +115,7 @@ module.exports = class extends Generator {
 
     // Copy src folder
     this.fs.copy(this.templatePath('src/**/*.ts'), this.destinationPath('src'))
+    this.fs.copy(this.templatePath('test/**/*.ts'), this.destinationPath('test'))
   }
 
   install() {

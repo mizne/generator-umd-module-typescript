@@ -52,6 +52,10 @@ You can then add or edit `*.ts` files in the `src/` directory and run:
 $ npm run build
 ```
 
+```bash
+$ npm run test
+```
+
 
 Finally you publish your library to NPM:
 

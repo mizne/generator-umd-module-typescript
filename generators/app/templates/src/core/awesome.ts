@@ -1,3 +1,5 @@
-export default function awesome () {
-  console.log('aweome')
+function awesome (): string {
+  return 'awesome'
 }
+
+export default awesome
