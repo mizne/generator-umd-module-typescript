@@ -5,7 +5,7 @@
   "main": "dist/<%= props.libraryName.kebabCase %>.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --coverage && opn coverage/index.html",
     "build": "webpack"
   },
   "jest": {
