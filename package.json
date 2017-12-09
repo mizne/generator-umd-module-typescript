@@ -1,6 +1,6 @@
 {
   "name": "generator-umd-module-typescript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "generator umd module for typescript",
   "main": "index.js",
   "scripts": {
