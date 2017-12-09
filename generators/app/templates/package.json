@@ -6,8 +6,7 @@
   "typings": "dist/index.d.ts",
   "scripts": {
     "test": "jest --coverage",
-    "build": "webpack",
-    "prepare": "npm run test && npm run build"
+    "build": "webpack"
   },
   "jest": {
     "transform": {
