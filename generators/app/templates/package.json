@@ -18,6 +18,10 @@
       "tsx",
       "js",
       "json"
+    ],
+    "coverageReporters": [
+      "text-summary",
+      "html"
     ]
   },
   "repository": {
