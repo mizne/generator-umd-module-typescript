@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest --coverage",
     "build": "webpack",
-    "prepublish": "npm run test && npm run build"
+    "prepare": "npm run test && npm run build"
   },
   "jest": {
     "transform": {
