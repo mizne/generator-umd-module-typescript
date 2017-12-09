@@ -5,8 +5,9 @@
   "main": "dist/<%= props.libraryName.kebabCase %>.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "test": "jest",
-    "build": "webpack"
+    "test": "jest --coverage",
+    "build": "webpack",
+    "prepublish": "npm run test && npm run build"
   },
   "jest": {
     "transform": {
