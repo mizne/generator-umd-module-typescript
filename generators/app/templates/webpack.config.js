@@ -8,7 +8,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: '<%= props.libraryName.kebabCase %>.js',
     library: '<%= props.libraryName.umd %>',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     rules: [
